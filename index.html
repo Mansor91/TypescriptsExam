@@ -6,7 +6,6 @@
         Simple Javascript To Do List
     </title>
     <link href="style.css" rel="stylesheet">
-    <script src="solution.js"></script>
 </head>
 
 <body>
@@ -15,10 +14,12 @@
         <h1>MY TASKS LIST</h1>
 
         <!-- (B) ADD NEW ITEM -->
-        <form id="todo-add">
+        <!-- <form id="todo-add"> -->
+        <div id="todo-add" > 
             <input type="text" id="todo-item" placeholder="New Task" required />
             <input type="submit" id="todo-save" value="&#10010;" />
-        </form>
+        </div>
+        <!-- </form> -->
 
         <!-- (C) DELETE ITEMS -->
         <div id="todo-del">
@@ -29,6 +30,8 @@
         <!-- (D) LIST ITEMS -->
         <div id="todo-list"></div>
     </div>
+
+    <script src="solution.js"></script>
 </body>
 
 </html>
